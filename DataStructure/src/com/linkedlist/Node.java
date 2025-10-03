@@ -1,0 +1,13 @@
+package com.linkedlist;
+
+public class Node {
+	int data;
+	Node next;
+	public Node(int data) {
+		this.data=data;
+	}
+//	public void show() {
+//		System.out.println("Node [data=" + data + ", next=" + next + "]");;
+//	}
+	
+}
