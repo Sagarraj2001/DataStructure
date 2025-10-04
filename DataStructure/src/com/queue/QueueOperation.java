@@ -32,7 +32,7 @@ public class QueueOperation {
             System.out.println("====================================");
         } else {
             int removed = queue[front];
-            // shift elements left
+         
             for (int i = 0; i < rear - 1; i++) {
                 queue[i] = queue[i + 1];
             }
